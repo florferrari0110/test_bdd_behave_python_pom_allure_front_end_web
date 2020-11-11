@@ -1,20 +1,20 @@
-#Test Selenium-Python-BDD-Behave-POM-Allure-FrontEnd-Web#
+**Test Selenium-Python-BDD-Behave-POM-Allure-FrontEnd-Web**
 
-##Ejercicio QA Automation## 
+**Ejercicio QA Automation**
 
-#########**Requisitos:**######
+**Requisitos:**
 
 >Python >= 3.5
 >Instalar las dependencias: pip3 install -r requirements.txt
 
 **Reporte usando Allure Framework:**
 
- >Ejecutar todos los tests:
+>Ejecutar todos los tests:
 
- >behave -f allure_behave.formatter:AllureFormatter -o allure_result_folder ./features
+>behave -f allure_behave.formatter:AllureFormatter -o allure_result_folder ./features
  
- >Para abrir el reporte HTML:
+>Para abrir el reporte HTML:
 
- >allure serve allure_result_folder
+>allure serve allure_result_folder
 
- !https://i.ibb.co/D7zMsFn/captura-report.png
+![github-small](https://i.ibb.co/D7zMsFn/captura-report.png)
