@@ -19,11 +19,3 @@ class Functions(Inicializar):
 
        def tearDown(self):
               self.driver.quit()
-
-       def generate_user_name(self):
-
-              self.start = 'test'
-              self.random_number = ''.join(random.choice(string.digits)
-                                          for _ in range(3))
-              user_name = self.start + self.random_number
-              return user_name
